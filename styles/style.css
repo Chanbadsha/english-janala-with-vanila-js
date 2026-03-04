@@ -1,20 +1,8 @@
 @import "tailwindcss";
+* {
+  font-family: "Poppins", sans-serif;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-}
-p {
-  font-family: "Hind Siliguri", sans-serif;
-  color: #18181b;
-}
-.font-poppins {
-  font-family: "Poppins", sans-serif;
-}
-.font-hind-siliguri {
+.font-bangla {
   font-family: "Hind Siliguri", sans-serif;
 }

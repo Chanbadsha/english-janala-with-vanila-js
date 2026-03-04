@@ -41,13 +41,11 @@
         aria-label="Main Navigation"
       >
         <a href="/" class="flex items-center text-2xl md:text-3xl">
-          <span class="font-poppins">English</span>
+          <span class="">English</span>
           <img src="./assets/logo.png" alt="English Janala Logo" />
-          <span class="font-hind-siliguri">জানালা</span>
+          <span class="font-bangla">জানালা</span>
         </a>
-        <ul
-          class="flex justify-center items-center gap-3 md:gap-6 font-poppins"
-        >
+        <ul class="flex justify-center items-center gap-3 md:gap-6">
           <li class="btn border border-[#5744da] text-[#5744da]">
             <a href="/faq" class="text-xs md:text-base">
               <i class="fa-solid fa-circle-question"></i>
@@ -73,14 +71,13 @@
     <!-- Main Content -->
     <main class="px-3 md:px-6 lg:px-16 xl:px-32">
       <!-- Hero Section -->
-
       <section class="flex flex-col lg:flex-row justify-between">
         <div class="hero-content flex flex-col items-start">
           <h1 class="text-2xl lg:text-4xl x:text-5xl font-bold">
             <span class="text-[#00BCFF]">English</span> is Easy!!
           </h1>
           <p
-            class="w-full lg:max-w-3xl font-medium text-base lg:text-xl xl:text-2xl"
+            class="w-full font-bangla lg:max-w-3xl font-medium text-base lg:text-xl xl:text-2xl"
           >
             আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
             আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
@@ -110,8 +107,33 @@
           </form>
         </div>
         <div class="hero-img">
-          <img src="./assets/hero-student.png" alt="" />
+          <img
+            src="./assets/hero-student.png"
+            alt="Hero Section Img"
+            class="md:max-w-8/12 lg:max-w-full mx-auto"
+          />
         </div>
+      </section>
+
+      <!-- Lessons Section -->
+      <section class="mt-6 lg:mt-12 xl:mt-16 pb-12">
+        <div
+          class="lesson-heading-section flex items-center flex-col justify-center gap-4"
+        >
+          <h2
+            class="text-[#00BCFF] font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
+          >
+            Let's Learn Vocabularies
+          </h2>
+          <div
+            id="lesson-buttons"
+            class="lesson-buttons flex gap-4 flex-wrap justify-center"
+          ></div>
+        </div>
+        <div
+          id="lesson_card_container"
+          class="lesson-card-section mt-6 rounded-2xl py-10 lg:py-20 text-center bg-[#f8f8f8]"
+        ></div>
       </section>
     </main>
 
