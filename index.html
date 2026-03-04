@@ -35,7 +35,7 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header class="bg-[#edf7ff] px-16 lg:px-32 py-7">
+    <header class="bg-[#edf7ff] px-16 xl:px-32 py-7">
       <nav
         class="flex justify-between flex-col items-center md:flex-row gap-3"
         aria-label="Main Navigation"
@@ -69,6 +69,51 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Main Content -->
+    <main class="px-3 md:px-6 lg:px-16 xl:px-32">
+      <!-- Hero Section -->
+
+      <section class="flex flex-col lg:flex-row justify-between">
+        <div class="hero-content flex flex-col items-start">
+          <h1 class="text-2xl lg:text-4xl x:text-5xl font-bold">
+            <span class="text-[#00BCFF]">English</span> is Easy!!
+          </h1>
+          <p
+            class="w-full lg:max-w-3xl font-medium text-base lg:text-xl xl:text-2xl"
+          >
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+          <form
+            action=""
+            class="flex flex-col items-start gap-2 w-full max-w-sm"
+          >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+              class="rounded p-2 border-gray-300 w-full"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+              class="rounded p-2 border-gray-300 w-full"
+            />
+            <button type="submit" class="btn-primary btn">Get Started</button>
+          </form>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/hero-student.png" alt="" />
+        </div>
+      </section>
+    </main>
 
     <!-- Javascript Link -->
     <script src="./scripts/script.js"></script>
